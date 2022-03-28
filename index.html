@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Pak SL</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+
+    <div class="container">
+        <!--Data or Content-->
+
+
+        <div class="box-1">
+
+            <!-- <select id="selectNumber">
+                <option>Choose a number</option>
+            </select> -->
+
+            <div class="dropdown">
+                <input class="text-box" type="text" placeholder="Select Words to play" readonly>
+                <div class="options" id="options">
+
+                </div>
+            </div>
+            <div class="content-holder">
+                <textarea placeholder="Click on start button" rows="6" name="comment[text]" id="textarea" cols="20"
+                    style="width: 306px; height: 177px;" class="ui-autocomplete-input" autocomplete="off" role="textbox"
+                    aria-autocomplete="list" aria-haspopup="true"></textarea>
+
+                <div style="margin: 0 auto; width: 330px; text-align: center;">
+                    <button class="button-1" id="start-record-btn" title="Start Recording Voice"
+                        onclick="voice()">Speak</button>
+                    <button class="button-4" id="start-record-btn" title="Start" onclick="text_play()">Start</button>
+                    <button class="button-3" id="start-record-btn" title="Clear Text Area"
+                        onclick="Clear()">Clear</button>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!--Forms-->
+        <div class="box-2">
+
+            <img id="gif" src="signlang.png" class="center" alt="Pakistan Sign Language"
+                style="margin-top: 100px; width:auto;height:300px; border-radius: 8%;">
+
+        </div>
+        <script src="script.js"></script>
+        <script>
+
+        </script>
+</body>
+
+</html>

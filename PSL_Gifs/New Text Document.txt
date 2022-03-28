@@ -1,0 +1,3 @@
+dic = ['dangerous','true','where','hello','child','tea','food','attack',
+'yes','moon','mother','good','congratulations','car','birthday','thankyou',
+'friend','goodbye','angry','amrica','alter','act','acer','accomplish','able']
